@@ -159,6 +159,12 @@ h1 {
   border-top: 1px solid #e8e5e0;
 }
 
+.photo-contact {
+  border-top: none;
+  margin-top: 12px;
+  padding-top: 0;
+}
+
 .contact-list li {
   margin-bottom: 6px;
   font-size: 0.95rem;
