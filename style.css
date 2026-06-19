@@ -112,14 +112,14 @@ nav {
 /* ===== About Section ===== */
 .about-grid {
   display: grid;
-  grid-template-columns: 320px 1fr;
+  grid-template-columns: 360px 1fr;
   gap: 64px;
   align-items: start;
 }
 
 .about-photo img {
-  width: 320px;
-  height: 340px;
+  width: 360px;
+  height: 300px;
   object-fit: cover;
   object-position: 47% 15%;
   border-radius: 6px;
