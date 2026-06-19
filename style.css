@@ -95,7 +95,8 @@ nav {
   letter-spacing: 0.04em;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a.active {
   color: #b31b1b;
   text-decoration: none;
 }

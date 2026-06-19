@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources — Qian Wang</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html" class="nav-name">Qian Wang</a>
+    <div class="nav-links">
+      <a href="index.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="cv.html">CV</a>
+      <a href="resources.html" class="active">Resources</a>
+      <a href="miscellaneous.html">Miscellaneous</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  </nav>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h2>Resources</h2>
+
+      <h3>PhD Application</h3>
+      <ul class="resource-list">
+        <li><a href="https://scarlet-chen.medium.com/my-journey-into-econ-phd-854cd892547b" target="_blank" rel="noopener">My Journey into Econ PhD</a> — Scarlet Chen</li>
+        <li><a href="http://www.businessphdwiki.com/doku.php" target="_blank" rel="noopener">Business PhD Wiki</a> — Abhishek Nagaraj and others</li>
+      </ul>
+
+      <h3>Management Research</h3>
+      <ul class="resource-list">
+        <li><a href="https://www.abhardwaj.net/research/mgmt-topics" target="_blank" rel="noopener">Topics in Management Research</a> — Anand Bhardwaj</li>
+        <li><a href="https://platformpapers.com/" target="_blank" rel="noopener">Review of Platform Papers</a> — Joost Rietveld &amp; Melissa Schilling</li>
+        <li><a href="http://people.bu.edu/tsimcoe/etiquette.html" target="_blank" rel="noopener">Empirical Etiquette</a> — Timothy Simcoe</li>
+      </ul>
+
+      <h3>Data Resources</h3>
+      <ul class="resource-list">
+        <li><a href="https://github.com/jindaxiang/akshare" target="_blank" rel="noopener">AKShare</a> — Financial data interface library for Python</li>
+      </ul>
+
+      <h3>Other Helpful Resources</h3>
+      <ul class="resource-list">
+        <li><a href="https://www.filizgarip.com/" target="_blank" rel="noopener">Filiz Garip's Personal Website</a></li>
+        <li><a href="https://www.aeaweb.org/content/file?id=869" target="_blank" rel="noopener">Econ Job Market Advice</a> — John Cawley</li>
+        <li><a href="http://www.dominika-langenmayr.net/teaching/" target="_blank" rel="noopener">Academic Writing for Accounting and Economics PhDs</a> — Dominika Langenmayr</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Qian Wang. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    links.classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.addEventListener('click', () => links.classList.remove('open'));
+  });
+</script>
+
+</body>
+</html>

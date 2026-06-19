@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Qian Wang</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html" class="nav-name">Qian Wang</a>
+    <div class="nav-links">
+      <a href="index.html">About</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="cv.html">CV</a>
+      <a href="resources.html">Resources</a>
+      <a href="miscellaneous.html">Miscellaneous</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  </nav>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h2>Research</h2>
+      <p>My research examines questions at the intersection of strategy, entrepreneurship, and founder demographics.</p>
+
+      <h3>Publications &amp; Accepted Papers</h3>
+      <ol class="paper-list">
+        <li>
+          <span class="paper-title">Minimum Viable Signal: Venture Funding, Social Movements, and Race</span><br>
+          <span class="paper-authors">Matt Marx, Qian Wang, &amp; Emmanuel Yimfor (alphabetical authorship)</span><br>
+          <span class="paper-detail"><em>Management Science</em>, 72(4), 3332–3350, 2026</span><br>
+          <span class="paper-detail">Winner, Bradford-Osborne Research Award. Featured on the NBER homepage.</span>
+        </li>
+        <li>
+          <span class="paper-title">When Certification Backfires: Negative Spillovers on Non-Certified Offerings in Airbnb Plus</span><br>
+          <span class="paper-authors">Heeyon Kim, Martina Montauti, &amp; Qian Wang</span><br>
+          <span class="paper-detail">Forthcoming at <em>Organization Science</em></span>
+        </li>
+        <li>
+          <span class="paper-title">The dApp Economy: A New Platform for Distributed Innovation?</span><br>
+          <span class="paper-authors">Aija Leiponen, Llewellyn D. Thomas, &amp; Qian Wang</span><br>
+          <span class="paper-detail"><em>Innovation: Organization &amp; Management</em>, 1–19, 2021 (pre-PhD publication)</span>
+        </li>
+      </ol>
+
+      <h3>Working Papers &amp; Selected Work in Progress</h3>
+      <ol class="paper-list">
+        <li>
+          <span class="paper-title">Closing the Racial Gap in Entrepreneurship: The Role of Spousal Public Sector Jobs</span><br>
+          <span class="paper-authors">Qian Wang &amp; Hongyuan Xia</span><br>
+          <span class="paper-detail">Winner, DRUID Steven Klepper Award for Best Young Scholar Paper</span>
+        </li>
+        <li>
+          <span class="paper-title">Bring an Adult into the Room? The Complementarity–Coordination Tradeoff for Young Founders</span><br>
+          <span class="paper-authors">Qian Wang</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Qian Wang. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    links.classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.addEventListener('click', () => links.classList.remove('open'));
+  });
+</script>
+
+</body>
+</html>
