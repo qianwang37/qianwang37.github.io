@@ -121,6 +121,7 @@ nav {
   width: 320px;
   height: 400px;
   object-fit: cover;
+  object-position: 40% 15%;
   border-radius: 6px;
   background: #e8e5e0;
 }
