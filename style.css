@@ -231,6 +231,24 @@ h3 {
   letter-spacing: 0.03em;
 }
 
+.paper-abstract {
+  margin-top: 6px;
+}
+
+.paper-abstract summary {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #b31b1b;
+  cursor: pointer;
+}
+
+.paper-abstract p {
+  margin-top: 6px;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
 /* ===== CV Button ===== */
 .btn {
   display: inline-block;
