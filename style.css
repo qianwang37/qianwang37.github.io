@@ -120,9 +120,9 @@ nav {
 
 .about-photo img {
   width: 360px;
-  height: 300px;
+  height: 430px;
   object-fit: cover;
-  object-position: 47% 15%;
+  object-position: 50% 25%;
   border-radius: 6px;
   background: #e8e5e0;
 }
@@ -200,6 +200,26 @@ h3 {
 }
 
 /* ===== Research ===== */
+.research-photo {
+  margin: 8px 0 32px;
+}
+
+.research-photo img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: 6px;
+  background: #e8e5e0;
+}
+
+.research-photo figcaption {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #777;
+}
+
 .paper-list {
   padding-left: 20px;
 }
@@ -334,8 +354,12 @@ footer a {
   }
 
   .about-photo img {
-    width: 180px;
-    height: 225px;
+    width: 220px;
+    height: 262px;
+  }
+
+  .research-photo img {
+    height: auto;
   }
 
   .contact-list {
